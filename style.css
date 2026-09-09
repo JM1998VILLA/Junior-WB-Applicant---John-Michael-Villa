@@ -30,7 +30,6 @@
       margin-inline: auto;
     }
 
-    /* ---------- Header ---------- */
     .site-header {
       position: fixed;
       inset: 0 0 auto 0;
@@ -113,7 +112,6 @@
     }
     .header-call:hover { background: var(--navy); color: #fff; }
 
-    /* ---------- Menu drawer ---------- */
     .drawer-backdrop {
       position: fixed;
       inset: 0;
@@ -175,7 +173,6 @@
     .drawer-nav a:hover { padding-left: 8px; color: var(--gold); }
     .drawer-nav span { font-family: Inter; font-size: 12px; }
 
-    /* ---------- Hero ---------- */
     .hero {
       min-height: 760px;
       padding-top: 92px;
@@ -246,7 +243,6 @@
     }
     .button.dark:hover { background: transparent; color: var(--navy); }
 
-    /* ---------- Intro ---------- */
     .intro {
       padding: 105px 0 95px;
       background: var(--warm-white);
@@ -273,7 +269,6 @@
       font-size: 14px;
     }
 
-    /* ---------- Feature split ---------- */
     .feature-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -301,7 +296,6 @@
     }
     .feature-copy p { color: rgba(255,255,255,.78); font-size: 14px; margin-bottom: 28px; }
 
-    /* ---------- Services ---------- */
     .services {
       padding: 105px 0;
       background: var(--cream);
@@ -363,7 +357,6 @@
       color: rgba(255,255,255,.7);
     }
 
-    /* ---------- Search ---------- */
     .listings {
       position: relative;
       padding: 110px 0;
@@ -416,7 +409,6 @@
       margin-top: 10px;
     }
 
-    /* ---------- Gallery ---------- */
     .gallery {
       padding: 105px 0;
       background: var(--navy-deep);
@@ -456,7 +448,6 @@
     }
     .gallery-item:hover::after { opacity: 1; }
 
-    /* ---------- About ---------- */
     .about {
       padding: 110px 0;
       background: var(--warm-white);
@@ -493,7 +484,6 @@
       margin: 20px 0 28px;
     }
 
-    /* ---------- CTA ---------- */
     .cta {
       padding: 100px 20px;
       background: var(--cream);
@@ -579,7 +569,6 @@
       text-transform: uppercase;
     }
 
-    /* ---------- Modal gallery ---------- */
     .lightbox {
       position: fixed;
       inset: 0;
@@ -605,7 +594,6 @@
       cursor: pointer;
     }
 
-    /* ---------- Responsive ---------- */
     @media (max-width: 900px) {
       .header-call { display: none; }
       .feature-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
